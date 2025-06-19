@@ -38,17 +38,53 @@ export const experience = [
 export function Experience() {
 	return (
 		<section className="max-w-2xl mx-auto py-8 px-4" id="experience">
-			<h2 className="text-2xl font-semibold mb-2">Erfaring</h2>
+			<h2 className="text-3xl font-extrabold mb-6 text-primary text-center tracking-tight">
+				Erfaring
+			</h2>
+			<ul className="space-y-6">
+				{experience
+					.filter((exp) => exp.title !== "Styremedlem i utvalg")
+					.map((exp, idx) => (
+						<li
+							key={idx}
+							className="border border-primary/20 bg-white/70 dark:bg-slate-800/70 rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow duration-300"
+						>
+							<div className="font-bold text-lg text-primary mb-1 flex items-center gap-2">
+								<span className="inline-block w-2 h-2 bg-primary rounded-full"></span>
+								{exp.title}
+							</div>
+							<div className="text-sm text-muted-foreground mb-2">
+								{exp.company} | {exp.period}
+							</div>
+							<div className="mt-1 text-base leading-relaxed">
+								{exp.description}
+							</div>
+						</li>
+					))}
+			</ul>
+			<h3 className="text-xl font-semibold mt-10 mb-3 text-secondary-foreground">
+				Annen erfaring
+			</h3>
 			<ul className="space-y-4">
-				{experience.map((exp, idx) => (
-					<li key={idx} className="border rounded-lg p-4">
-						<div className="font-bold text-lg">{exp.title}</div>
-						<div className="text-sm text-muted-foreground">
-							{exp.company} | {exp.period}
-						</div>
-						<div className="mt-1">{exp.description}</div>
-					</li>
-				))}
+				{experience
+					.filter((exp) => exp.title === "Styremedlem i utvalg")
+					.map((exp, idx) => (
+						<li
+							key={idx}
+							className="border border-accent bg-accent/40 rounded-xl p-5 shadow-sm"
+						>
+							<div className="font-bold text-lg text-accent-foreground mb-1 flex items-center gap-2">
+								<span className="inline-block w-2 h-2 bg-accent rounded-full"></span>
+								{exp.title}
+							</div>
+							<div className="text-sm text-muted-foreground mb-2">
+								{exp.company} | {exp.period}
+							</div>
+							<div className="mt-1 text-base leading-relaxed">
+								{exp.description}
+							</div>
+						</li>
+					))}
 			</ul>
 		</section>
 	);
