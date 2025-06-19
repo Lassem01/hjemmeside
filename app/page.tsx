@@ -1,11 +1,5 @@
-import { Button } from "@/components/ui/button";
+import HomeAnimated from "./page-animated";
 
-export default function Home() {
-  return (
-    <div>
-      <h1>Home</h1>
-      <Button variant="knapp" size="lg">Click me</Button>
-
-    </div>
-  );
+export default function Index() {
+  return <HomeAnimated />;
 }
