@@ -31,7 +31,7 @@ export const experience = [
 		title: "Styremedlem i utvalg",
 		company: "Kroa i Bø",
 		period: "September 2024 - d.d.",
-		description: "Verv som styremedlem i utvalg.",
+		description: "Frivillig verv som styremedlem i utvalg.",
 	},
 ];
 

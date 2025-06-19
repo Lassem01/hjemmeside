@@ -8,6 +8,7 @@ import { Projects } from "@/components/Projects";
 import { Experience } from "@/components/Experience";
 import { Education } from "@/components/Education";
 import { Languages } from "@/components/Languages";
+import { Grades } from "@/components/Grades";
 import { Contact } from "@/components/Contact";
 
 const tabs = [
@@ -17,6 +18,7 @@ const tabs = [
 	{ name: "Ferdigheter", component: <Skills /> },
 	{ name: "Prosjekter", component: <Projects /> },
 	{ name: "Språk", component: <Languages /> },
+	{ name: "Karakterer", component: <Grades /> },
 ];
 
 export default function HomeAnimated() {

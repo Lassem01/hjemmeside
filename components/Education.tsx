@@ -7,6 +7,12 @@ export const education = [
 			"Studerer informatikk med fokus på programmering, webutvikling og systemutvikling. To semestre grunnleggende Java og to semestre objektorientert Java-programmering.",
 	},
 	{
+		degree: "Sport Extreme Australia (Folkehøgskole)",
+		school: "Bakketun FHS",
+		period: "August 2022 - Mai 2023",
+		description: "Fallskjermhopping, surfing, klatring, dykking og downhillsykling.",
+	},
+	{
 		degree: "Påbygg til generell studiekompetanse",
 		school: "Metis Privatistskole",
 		period: "2021 - 2022",
@@ -17,12 +23,6 @@ export const education = [
 		school: "Osterøy VGS",
 		period: "2017 - 2019",
 		description: "Videregående utdanning innen teknologi og industrifag.",
-	},
-	{
-		degree: "Sport Extreme Australia (Folkehøgskole)",
-		school: "Bakketun FHS",
-		period: "August 2022 - Mai 2023",
-		description: "Fallskjermhopping, surfing, klatring, dykking og downhillsykling.",
 	},
 ];
 
