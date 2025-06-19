@@ -7,9 +7,9 @@ export function Hero() {
   return (
     <section className="flex flex-col items-center justify-center py-16 text-center" id="hero">
       <div className="mb-6">
-        <div className="w-44 h-44 rounded-full overflow-hidden border-4 border-primary mx-auto shadow-lg bg-gray-200 flex items-center justify-center">
+        <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-primary mx-auto shadow-lg bg-gray-200 flex items-center justify-center">
           <img
-            src="/CV bilde.JPG"
+            src="/CVbilde.JPG"
             alt="Profilbilde av Lasse Mostuen"
             className="object-cover w-full h-full"
           />
