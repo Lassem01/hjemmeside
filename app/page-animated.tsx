@@ -3,11 +3,9 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
-import { Skills } from "@/components/Skills";
 import { Projects } from "@/components/Projects";
 import { Experience } from "@/components/Experience";
 import { Education } from "@/components/Education";
-import { Languages } from "@/components/Languages";
 import { Grades } from "@/components/Grades";
 import { Contact } from "@/components/Contact";
 
@@ -15,9 +13,7 @@ const tabs = [
 	{ name: "Om meg", component: <About /> },
 	{ name: "Erfaring", component: <Experience /> },
 	{ name: "Utdanning", component: <Education /> },
-	{ name: "Ferdigheter", component: <Skills /> },
 	{ name: "Prosjekter", component: <Projects /> },
-	{ name: "Språk", component: <Languages /> },
 	{ name: "Karakterer", component: <Grades /> },
 ];
 

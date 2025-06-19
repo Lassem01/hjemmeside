@@ -90,6 +90,20 @@ export const grades = [
 		credits: "7,5",
 		grade: "B",
 	},
+	{
+		subject: "MET1020 Samfunnsvitenskapelig metode",
+		school: "USN",
+		year: "2025 vår",
+		credits: "7,5",
+		grade: "E",
+	},
+	{
+		subject: "SIK2000 Informasjonssikkerhet",
+		school: "USN",
+		year: "2025 vår",
+		credits: "7,5",
+		grade: "E",
+	},
 	// Legg til flere karakterer her
 ];
 
