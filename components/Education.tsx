@@ -4,7 +4,7 @@ export const education = [
 		school: "Universitetet i Sørøst-Norge",
 		period: "2023 - d.d.",
 		description:
-			"Studerer informatikk med fokus på programmering, webutvikling og systemutvikling. To semestre grunnleggende Java og to semestre objektorientert Java-programmering.",
+			"IT og Informasjonssystemer med fokus på prosjekt i grupper, webutvikling og java programmering",
 	},
 	{
 		degree: "Sport Extreme Australia (Folkehøgskole)",
