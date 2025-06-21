@@ -26,6 +26,9 @@ export function Skills() {
 			<h2 className="text-3xl font-extrabold mb-6 text-primary text-center tracking-tight">
 				Ferdigheter
 			</h2>
+			<p className="text-base text-muted-foreground text-center mb-4">
+				Her er et utvalg av teknologier, verktøy og metoder jeg har erfaring med fra studier, prosjekter og hobbyarbeid.
+			</p>
 			<div className="space-y-6">
 				<ul className="flex flex-wrap gap-3 justify-center mb-4">
 					{skills.map((skill) => (
