@@ -4,14 +4,14 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
 import { Projects } from "@/components/Projects";
-import { Experience } from "@/components/Experience";
 import { Education } from "@/components/Education";
 import { Contact } from "@/components/Contact";
+import { Skills } from "@/components/Skills";
 
 const tabs = [
 	{ name: "Om meg", component: <About /> },
-	{ name: "Erfaring", component: <Experience /> },
 	{ name: "Utdanning", component: <Education /> },
+	{ name: "Ferdigheter", component: <Skills /> },
 	{ name: "Prosjekter", component: <Projects /> },
 ];
 

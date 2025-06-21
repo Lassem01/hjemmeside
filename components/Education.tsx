@@ -4,25 +4,7 @@ export const education = [
 		school: "Universitetet i Sørøst-Norge",
 		period: "2023 - d.d.",
 		description:
-			"IT og Informasjonssystemer med fokus på prosjekt i grupper, webutvikling og java programmering",
-	},
-	{
-		degree: "Sport Extreme Australia (Folkehøgskole)",
-		school: "Bakketun FHS",
-		period: "August 2022 - Mai 2023",
-		description: "Fallskjermhopping, surfing, klatring, dykking og downhillsykling.",
-	},
-	{
-		degree: "Påbygg til generell studiekompetanse",
-		school: "Metis Privatistskole",
-		period: "2021 - 2022",
-		description: "Fullført påbygg for å oppnå generell studiekompetanse.",
-	},
-	{
-		degree: "Teknologi- og industrifag",
-		school: "Osterøy VGS",
-		period: "2017 - 2019",
-		description: "Videregående utdanning innen teknologi og industrifag.",
+			"Bachelorgraden gir et solid fundament innen programmering, databaser, systemutvikling og prosjektarbeid. Jeg har jobbet mye i team, og trives godt med både samarbeid og tekniske utfordringer. Fullstack-utvikling er et område jeg interesserer meg spesielt for, og jeg har mest erfaring med Java, React og PostgreSQL. Studiet har fokus på prosjektarbeid i grupper, webutvikling og java-programmering.",
 	},
 ];
 
